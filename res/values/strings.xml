@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">郭福城的图书管理系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_user_info">UserInfo</string>
+    <string name="title_activity_book_info">BookInfo</string>
+    <string name="title_activity_add_user_info">AddUserInfo</string>
+    <string name="title_activity_view_user_info">ViewUserInfo</string>
+    <string name="title_activity_update_user">UpdateUser</string>
+    <string name="title_activity_add_book_info">AddBookInfo</string>
+    <string name="title_activity_view_book_info">ViewBookInfo</string>
+    <string name="title_activity_update_book_info">UpdateBookInfo</string>
+    <string name="title_activity_view_borrow_info">ViewBorrowInfo</string>
+    <string name="title_activity_find_book">FindBook</string>
+    <string name="title_activity_borrow_book">BorrowBook</string>
+    <string name="title_activity_find_password">FindPassword</string>
+    <string name="title_activity_borrow_info">BorrowInfo</string>
+
+</resources>

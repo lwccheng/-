@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mybookmanagesystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mybookmanagesystem.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.UserInfo"
+            android:label="@string/title_activity_user_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.BookInfo"
+            android:label="@string/title_activity_book_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.AddUserInfo"
+            android:label="@string/title_activity_add_user_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.ViewUserInfo"
+            android:label="@string/title_activity_view_user_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.UpdateUserInfo"
+            android:label="@string/title_activity_update_user" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.AddBookInfo"
+            android:label="@string/title_activity_add_book_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.ViewBookInfo"
+            android:label="@string/title_activity_view_book_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.UpdateBookInfo"
+            android:label="@string/title_activity_update_book_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.ViewBorrowInfo"
+            android:label="@string/title_activity_view_borrow_info" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.FindBook"
+            android:label="@string/title_activity_find_book" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.BorrowBook"
+            android:label="@string/title_activity_borrow_book" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.UpdatePassword"
+            android:label="@string/title_activity_find_password" >
+        </activity>
+        <activity
+            android:name="com.example.mybookmanagesystem.BorrowInfo"
+            android:label="@string/title_activity_borrow_info" >
+        </activity>
+    </application>
+
+</manifest>
